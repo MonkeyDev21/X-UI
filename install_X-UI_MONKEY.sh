@@ -13,7 +13,7 @@ apt-get update -y
 sudo apt install speedtest-cli
 clear
 # Cài Đặt X-UI và mở port
-bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/DVS/main/X-UI-DVS-TEAM.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MonkeyDev21/X-UI/main/X-UI-MONKEY-NGHI.sh)
 echo "》『Mở Port: 54321』"
 ufw allow 54321
 echo "》『Mở Port: 443』 "
