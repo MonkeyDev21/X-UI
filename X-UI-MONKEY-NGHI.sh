@@ -1,5 +1,4 @@
-# Zalo: 0835315551 [Sỹ]
-# Website: https://vpn.dvsteam.tk
+# Monkeydev
 xanh='\033[1;35m'
 red='\033[1;35m'
 green='\033[1;35m'
@@ -8,7 +7,7 @@ plain='\033[0m'
 cur_dir=$(pwd)  
 
 # check root
-[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${xanh}〖DVS TEAM〗『https://vpn.dvsteam.tk』 " && exit 1
+[[ $EUID -ne 0 ]] && echo -e "${red}Chú ý：${plain}Tập lệnh này phải được chạy với tư cách người dùng gốc(root)! \n ${xanh}➫Vui Lòng Gõ Lệnh: ${yellow}sudo -i \n ➬Để Kích Hoạt Root, và thử lại lần nữa \n ${xanh}〖MONKEYDEV〗『DINHNGHI』 " && exit 1
 # check os
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
@@ -144,13 +143,13 @@ clear
     echo -e "》x-ui update       ➪ ${xanh}Cập nhật bảng điều khiển x-ui${plain}"
     echo -e "》x-ui install      ➪ ${xanh}Cài đặt bảng điều khiển x-ui${plain}"
     echo -e "》x-ui uninstall    ➪ ${xanh}Gỡ cài đặt bảng điều khiển x-ui${plain}"
-    echo -e "» Truy Cập Vào ${yellow}(https://vpn.dvsteam.tk)${plain} để bít thêm chi tiếc và Gruop. "
+    echo -e "» Truy Cập Vào ${yellow}(DINHNGHI)${plain} để bít thêm chi tiếc và Gruop. "
     echo -e "${xanh}╔═══*.·:·.☽✧══✶══✦══✶══✧☾.·:·.*═══╗  "
-    echo -e "${yellow}『Dương Văn Sỹ』 【Zalo:0835315551】   "
+    echo -e "${yellow}『Nguyen Dinh Nghi』 【Monkeydev】   "
     echo -e "${xanh}╚═══*.·:·.☽✧══✶══✦══✶══✧☾.·:·.*═══╝  ${yellow}  "
 }
 
-   echo -e "${yellow}Bắt Đầu Cài Đặt X-UI DVS TEAM${plain}"
+   echo -e "${yellow}Bắt Đầu Cài Đặt X-UI MONKEY DEV${plain}"
 install_base
 install_x-ui $1
-# DVS TEAM VPN
+# Monkeydev
